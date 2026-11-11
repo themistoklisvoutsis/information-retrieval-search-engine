@@ -1,0 +1,23 @@
+# Local environments and tooling
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Original document corpus and relevance judgments (not in this archive)
+collection/docs/*
+!collection/docs/.gitkeep
+collection/Queries.txt
+collection/Relevant.txt
+
+# Generated outputs and model caches
+outputs/
+results/
+models/
+.cache/
